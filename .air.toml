@@ -11,7 +11,7 @@ cmd = "go build -o ./tmp/main ./cmd/web/"
 # Binary file yields from `cmd`.
 bin = "tmp main"
 # Customize binary.
-full_bin = "STRIPE_SECRET=sk_test_51Q0sPcP7IGgOy6Pqo6007XDThvJKWIWzWNjAFt81PWlncObb2g6Vy5gNeG07T5IaQALUs1NEUMDoMPC3bG4qXIPH004ohMZGSW STRIPE_KEY=pk_test_51Q0sPcP7IGgOy6PqCxIYI5HuVzndTCNduptDTkNxZI5AJbHCfNWTdMT4vihVmzaAmXpV00cIkzvmo3HvswMgTOeP006gCBS6ho ./tmp/main"
+full_bin = "cmd /C \"set STRIPE_SECRET=sk_test_51Q0sPcP7IGgOy6Pqo6007XDThvJKWIWzWNjAFt81PWlncObb2g6Vy5gNeG07T5IaQALUs1NEUMDoMPC3bG4qXIPH004ohMZGSW && set STRIPE_KEY=pk_test_51Q0sPcP7IGgOy6PqCxIYI5HuVzndTCNduptDTkNxZI5AJbHCfNWTdMT4vihVmzaAmXpV00cIkzvmo3HvswMgTOeP006gCBS6ho && C:\\Users\\ebhav\\OnlineSellingPortal-GoLang\\tmp\\main.exe\""
 # Watch these filename extensions.
 include_ext = ["go", "tpl", "tmpl", "html", "gohtml"]
 # Ignore these filename extensions or directories.
